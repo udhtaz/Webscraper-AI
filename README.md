@@ -1,8 +1,8 @@
-# FastAPI Web Scraper & AI-Based Content Processing 🚀
+# FastAPI Web Scraper & AI-Based Content Processing ⚡
 
 A **FastAPI backend** that automates the process of:
 - Scraping event details from the web 🕵️‍♂️
-- Processing and structuring scraped event data 🏗️
+- Processing and structuring scraped event data using LLM 🏗️
 - Generating **brief, engaging event descriptions** using multiple **LLMs** 🤖
 - **Supported LLMs:** GPT-4o, Deepseek R1, Llama3.3, Qwen2.5, Gemma2, Mixtral8x7b ⚡
 - Storing processed event details into a **PostgreSQL database** 🗄️
@@ -99,12 +99,12 @@ _Request Body (Partial Updates Supported):_
 ---
 
 ## **🛠️ Tech Stack**
-- **FastAPI** – High-performance backend framework 🚀
+- **FastAPI** – High-performance backend framework ⚡
 - **SQLModel & Async SQLAlchemy** – Database ORM 🗄️
 - **BeautifulSoup** – Web scraping for event extraction 🕵️‍♂️
 - **OpenAI API & Groq API** – AI-powered event summarization 🤖
-- **Uvicorn** – ASGI server for FastAPI 🚀
-- **Alembic** – Database migrations ⚡
+- **Uvicorn** – ASGI server for FastAPI ⚡
+- **Alembic** – Database migrations 🗄️
 
 ---
 
@@ -124,5 +124,5 @@ Apache License. See `LICENSE` for more details.
 
 ---
 
-### **🚀 Ready to automate webscraping and content processing with AI? Get started today!**
+### ** Ready to automate webscraping and content processing with AI? Get started today!**
 
