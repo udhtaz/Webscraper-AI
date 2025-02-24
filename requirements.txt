@@ -1,0 +1,22 @@
+# LLM
+openai
+groq
+# ==== FastAPI & EXTENSIONS ======
+fastapi[all]
+uvicorn[standard]
+pydantic-settings
+itsdangerous
+# ==== DB ======
+sqlalchemy[asyncio]
+sqlmodel
+alembic
+asyncpg
+# ===== OTHERS ======
+tqdm
+pandas
+beautifulsoup4
+requests
+# openpyxl
+python3-wget
+# ===== ENV =======
+python-dotenv

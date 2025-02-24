@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "app"
+version = "1.0"
+description = "A FastAPI backend that automates the process of scraping event details from the web, process the scraped data, generate brief description of the events utilizing multiple LLM options and save processed event details to database."
+authors = ["Taiwo ADELAKIN <reachtaye@gmail.com>"]
+license = "Apache"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
